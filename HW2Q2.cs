@@ -25,13 +25,13 @@ class Program
             smallest=b;
         }
     }
-    //check if c is the smallest
+    
     if(c<a) {
         if(c<b) {
             smallest=c;
         }
     }
-    //print the smallest
+    
     Console.WriteLine("The smallest value is: {0}",smallest);
   }
 }
